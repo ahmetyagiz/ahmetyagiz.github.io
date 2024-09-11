@@ -26,7 +26,7 @@
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #ffffff;  /* The default color of the main navmenu links */
+  --nav-color: #45505b;  /* The default color of the main navmenu links */
   --nav-hover-color: #0563bb; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
@@ -42,20 +42,13 @@
 }
 
 .dark-background {
-  --background-color: #383838;
+  --background-color: #060606;
   --default-color: #ffffff;
   --heading-color: #ffffff;
-  --surface-color: #383838;
+  --surface-color: #252525;
   --contrast-color: #ffffff;
 }
 
-.gray-background {
-  --background-color: #1f1f1f;
-  --default-color: #ffffff;
-  --heading-color: #ffffff;
-  --surface-color: #1f1f1f;
-  --contrast-color: #ffffff;
-}
 /* Smooth scroll */
 :root {
   scroll-behavior: smooth;
